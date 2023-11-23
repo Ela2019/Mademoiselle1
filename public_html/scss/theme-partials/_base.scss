@@ -1,9 +1,17 @@
 $base-font:$lato;
-
+$headline-font:$bodoni;
 img{
     max-width: 100%;
 }
 body{
     font-family:$base-font;
     font-weight: $font-weight-light;
+}
+h3{
+      color: $gray-900;
+  font-family:$bodoni;
+  font-size: 3rem;
+  font-weight: $font-weight-light;
+  letter-spacing: 5px;
+  line-height: 4.5rem;
 }

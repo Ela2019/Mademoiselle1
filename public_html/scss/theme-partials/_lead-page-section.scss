@@ -1,0 +1,31 @@
+.lead-page-section{
+    background-size: cover;
+    background-position: center center;
+    padding: 250px;
+    opacity: 0.45;
+    background: linear-gradient;
+
+}
+.lead-section-title{
+    color: $white;
+    font-family: "Bodoni 72";
+    font-size: 6rem;
+    font-weight: $font-weight-light;
+    letter-spacing: 2rem;
+    line-height: 8.4rem;
+    text-align: center;
+
+}
+@media screen and (max-width: 768px){
+
+    .test{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .lead-section-title{
+
+        font-size: 3rem;
+        text-align: center;
+    }
+}

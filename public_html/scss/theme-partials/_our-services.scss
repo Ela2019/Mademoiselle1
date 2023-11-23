@@ -1,0 +1,128 @@
+$beauty-bg:#F5F5F5;
+
+.beauty-section{
+    padding:75px 65px 0;
+}
+.beauty-section{
+    .section-title{
+        
+        margin-top:75px;
+        margin-bottom: 49px;
+        &:hover{
+            border-bottom:1px solid #ECD9D9
+        }
+    }
+
+    .service-item{
+
+
+        padding:22px 57px 16px;
+        position:relative;
+        top:-81px;
+        z-index: 100;
+        width:80%;
+        margin:0 auto;
+        background-color: #f7f7f7;
+
+        .paragraph-title{
+            font-family:$base-font;
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: 24px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .date{
+            color: $gray-900;
+            font-family: $bodoni;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: $font-weight-light;
+            letter-spacing: 1px;
+            line-height: 1.7rem;
+            text-align: center;
+        }
+    }
+}
+
+.our-services-section{
+
+
+    .section-paragraph-gray{
+        background-color: $beauty-bg;
+    }
+    .section-paragraph-pink{
+        background-color:$primary;
+    }
+    .our-services-title{
+        height: 64px;
+     
+        margin-bottom:58px;
+        &:hover{
+            border-bottom: 1px solid $primary;
+
+        }
+
+    }
+    .our-services-item{
+        font-size: 3.6rem;
+        letter-spacing: 0;
+        line-height: 4.4rem;
+
+        padding:95px;
+
+        p{
+            margin-bottom: 36px;
+        }
+        a{
+            margin-bottom:135px;
+            padding:15px 36px;
+        }
+
+    }
+
+}
+.professionals{
+    h3{
+        margin-top:111px;
+        margin-bottom:54px;
+        &:hover{
+            border-bottom: 1px solid #ECD9D9;
+        }
+       
+    }
+}
+.professionals-section{
+    img{
+  
+  padding:54px;
+    }
+    box-sizing: border-box;
+    border: 1px solid $primary;
+ 
+    .profesionals-paragraph{
+ padding:85px 102px 50px;
+  color: $gray-900;
+  font-family: $lato;
+  font-size: 1.6rem;
+  font-weight:$font-weight-light;
+  letter-spacing: 0;
+  line-height: 2.3rem;
+ 
+  
+ 
+    }
+}
+
+
+@media(max-width:768px){
+
+
+    .service-item{
+        width: 100%;
+        display: block;
+        margin-top: 0;
+
+    }
+    }
+
