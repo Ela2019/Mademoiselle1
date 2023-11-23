@@ -11119,6 +11119,7 @@ header .navbar .navbar-brand {
   letter-spacing: 2rem;
   line-height: 8.4rem;
   text-align: center;
+  margin-left: 90px;
 }
 
 @media screen and (max-width: 768px) {
@@ -11242,6 +11243,48 @@ header .navbar .navbar-brand {
     width: 100%;
     display: block;
     margin-top: 0;
+  }
+}
+
+.our-services-section {
+  margin-top: 88px;
+}
+
+footer .social {
+  margin-top: 37px;
+}
+
+footer .copyright {
+  margin-bottom: 25px;
+}
+
+.professionals .professionals-section {
+  border: #fff;
+}
+
+.professionals .professionals-section .profesionals-paragraph {
+  padding: 45px;
+}
+
+.professionals .professionals-section .profesionals-paragraph p {
+  padding: 25px 0;
+}
+
+.professionals .professionals-section img {
+  padding: 54px;
+}
+
+.beauty-section .section-title {
+  margin-bottom: 49px;
+}
+
+.beauty-section .paragraph-title {
+  overflow: hidden;
+}
+
+@media (min-width: 768) {
+  .beauty-section .paragraph-title {
+    overflow: hidden;
   }
 }
 

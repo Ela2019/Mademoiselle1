@@ -1,0 +1,35 @@
+.professionals{
+.professionals-section{
+    .profesionals-paragraph{
+      padding:45px;
+      p{
+          padding:25px 0;
+        
+      }
+    }
+    img{
+  
+  padding:54px;
+    }
+    border:$white;
+     
+}
+    
+}
+.beauty-section{
+    .section-title{
+        margin-bottom:49px;
+    }
+    .paragraph-title{
+        overflow: hidden;
+     
+    }
+}
+
+@media(min-width:768){
+    .beauty-section{
+        .paragraph-title{
+            overflow: hidden;
+        }
+    }
+}
