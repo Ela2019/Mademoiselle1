@@ -1,0 +1,51 @@
+
+
+.lead-page-section{
+    .lead-section-title{
+      
+  width: 704px;
+  color: $white;
+  font-family: $bodoni;
+  font-size: 6rem;
+  font-weight:$font-weight-light;
+  letter-spacing: 2rem;
+  line-height: 8.4rem;
+  text-align: center;
+  margin-left:50px;
+    }
+    .home-btn{
+       padding:13px 30px;
+        font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  line-height: 1.7rem; 
+  color:$white;
+margin-left:350px;
+margin-top:32px;
+    }
+}
+@media(min-width:460px){
+    .lead-page-section{
+    .lead-section-title{
+        margin-left:400px;
+        }
+    }
+}
+@media(min-width:992px){
+    .lead-page-section{
+    .lead-section-title{
+        margin-left:0px;
+     
+        }
+    }
+}
+@media(min-width:1200px){
+.lead-page-section{
+    .lead-section-title{
+        h1{
+       
+             padding:227px 150px;
+        }
+      
+    }
+}
+}

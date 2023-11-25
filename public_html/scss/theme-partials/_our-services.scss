@@ -5,7 +5,7 @@ $beauty-bg:#F5F5F5;
 }
 .beauty-section{
     .section-title{
-        
+
         margin-top:75px;
         margin-bottom: 49px;
         &:hover{
@@ -52,14 +52,14 @@ $beauty-bg:#F5F5F5;
         background-color: $beauty-bg;
     }
     .section-paragraph-pink{
-        background-color:$primary;
+        background-color:$light-pink;
     }
     .our-services-title{
         height: 64px;
-     
+
         margin-bottom:58px;
         &:hover{
-            border-bottom: 1px solid $primary;
+            border-bottom: 1px solid $light-pink;
 
         }
 
@@ -89,31 +89,45 @@ $beauty-bg:#F5F5F5;
         &:hover{
             border-bottom: 1px solid #ECD9D9;
         }
-       
+
     }
+    
 }
+
 .professionals-section{
+
+    
     img{
-  
-  padding:54px;
+
+        padding:54px;
     }
-    box-sizing: border-box;
-    border: 1px solid $primary;
- 
+
+
     .profesionals-paragraph{
- padding:85px 102px 50px;
-  color: $gray-900;
-  font-family: $lato;
-  font-size: 1.6rem;
-  font-weight:$font-weight-light;
-  letter-spacing: 0;
-  line-height: 2.3rem;
- 
-  
- 
+        padding:85px 102px 50px;
+        color: $gray-900;
+        font-family: $lato;
+        font-size: 1.6rem;
+        font-weight:$font-weight-light;
+        letter-spacing: 0;
+        line-height: 2.3rem;
+
+
+
     }
 }
 
+footer{
+    .social{
+        .fa-facebook-f,.fa-instagram, .fa-twitter{
+            color:$light-pink;
+            margin-left:33px;
+        }
+    }
+    .title-link{
+        color:$dark;
+    }
+}
 
 @media(max-width:768px){
 
@@ -124,5 +138,5 @@ $beauty-bg:#F5F5F5;
         margin-top: 0;
 
     }
-    }
+}
 

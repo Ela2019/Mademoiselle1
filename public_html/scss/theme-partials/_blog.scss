@@ -1,0 +1,46 @@
+.beauty-section{
+    .paragraph-title{
+        overflow: hidden;
+      
+    }
+}
+
+.pagination{
+border-color:$white;
+  color: $gray-900;
+  font-family: $bodoni;
+  font-size: 1.6rem;
+  font-weight: $font-weight-light;
+  letter-spacing: 0;
+  line-height: 2.4rem;
+  
+}
+.lead-page-section{
+    .lead-section-title{
+      margin-left:270px;
+    }
+}
+@media(min-width:576px){
+   .lead-page-section{
+    .lead-section-title{
+      margin-left:30px;
+      font-size:4rem;
+    }
+}
+}
+@media(min-width:996px){
+     .lead-page-section{
+    .lead-section-title{
+      margin-left:180px;
+     
+    }
+}
+}
+@media(min-width:1200px){
+     .lead-page-section{
+    .lead-section-title{
+      margin-left:280px;
+     font-size:6rem;
+    }
+}
+}

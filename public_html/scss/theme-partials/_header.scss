@@ -1,4 +1,4 @@
-$navbar-toggler-bg:$primary;
+$navbar-toggler-bg:$light-pink;
 
 header{
     .navbar-toggler{
@@ -23,7 +23,7 @@ header{
 
 
                     &:hover{
-                        border-bottom: 1px solid #ECD9D9;
+                        border-bottom: 1px solid $light-pink;
 
 
                     }

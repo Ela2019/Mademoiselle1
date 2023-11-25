@@ -13,8 +13,10 @@
     font-weight: $font-weight-light;
     letter-spacing: 2rem;
     line-height: 8.4rem;
-    text-align: center;
-    margin-left:90px;
+
+      display: flex;
+        justify-content: center;
+ 
 
 }
 @media screen and (max-width: 768px){

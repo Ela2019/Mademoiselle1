@@ -1708,10 +1708,10 @@ pre code {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #fff;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: #fff;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -3312,11 +3312,7 @@ input[type="button"].btn-block {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
   text-align: center;
-  white-space: nowrap;
-  background-color: #e9ecef;
-  border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
 
@@ -4556,9 +4552,9 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #343a40;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: none;
 }
 
 .page-link:hover {
@@ -4566,7 +4562,7 @@ input[type="button"].btn-block {
   color: #0056b3;
   text-decoration: none;
   background-color: #e9ecef;
-  border-color: #dee2e6;
+  border-color: #fff;
 }
 
 .page-link:focus {

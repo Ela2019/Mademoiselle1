@@ -1,20 +1,21 @@
 .professionals{
-.professionals-section{
-    .profesionals-paragraph{
-      padding:45px;
-      p{
-          padding:25px 0;
-        
-      }
+    .professionals-section{
+
+        .profesionals-paragraph{
+            padding:45px;
+            p{
+                padding:25px 0;
+
+            }
+        }
+        img{
+
+            padding:54px;
+        }
+        border:$white;
+
     }
-    img{
-  
-  padding:54px;
-    }
-    border:$white;
-     
-}
-    
+
 }
 .beauty-section{
     .section-title{
@@ -22,7 +23,7 @@
     }
     .paragraph-title{
         overflow: hidden;
-     
+
     }
 }
 

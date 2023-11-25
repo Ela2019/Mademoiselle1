@@ -5,9 +5,9 @@ html{
 $font-size-base: 1.6rem;
 $grid-gutter-width: 12px;
 $gray-900: #1E1E1E;
-$primary:#ECD9D9;
-$navbar-light-hover-color:$primary;
-$navbar-light-active-color:$primary;
+$light-pink:#ECD9D9;
+$navbar-light-hover-color:$light-pink;
+$navbar-light-active-color:$light-pink;
 // override bootstrap variables
 $sizes: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
