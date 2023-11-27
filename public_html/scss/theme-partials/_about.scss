@@ -1,4 +1,6 @@
+
 .beauty-section{
+
     .search-field{
     height: 69px;
         border: 1px solid $gray-900;
@@ -7,11 +9,19 @@
         font-family:$bodoni;
         font-weight: $font-weight-light;
     }
+    .fa-search{
+        color:$dark;
+    }
     .about-paragraph{
+        margin-top:50px;
         margin-bottom:29px;
     }
     .about-second-paragraph{
         margin-top:66px;
         margin-bottom: 143px;
+    }
+    .form-control{
+          height: 65px;
+
     }
 }

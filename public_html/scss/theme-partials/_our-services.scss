@@ -46,7 +46,9 @@ $beauty-bg:#F5F5F5;
 }
 
 .our-services-section{
-
+    img{
+        height:100%;
+    }
 
     .section-paragraph-gray{
         background-color: $beauty-bg;
@@ -55,7 +57,7 @@ $beauty-bg:#F5F5F5;
         background-color:$light-pink;
     }
     .our-services-title{
-        height: 64px;
+
 
         margin-bottom:58px;
         &:hover{
@@ -69,19 +71,56 @@ $beauty-bg:#F5F5F5;
         letter-spacing: 0;
         line-height: 4.4rem;
 
-        padding:95px;
+
+
 
         p{
+            margin-top:80px;
             margin-bottom: 36px;
+            margin-left:100px
         }
         a{
             margin-bottom:135px;
             padding:15px 36px;
+            margin-left:100px
         }
 
     }
 
 }
+
+
+@media(max-width:768px){
+    .our-services-section{
+        .our-services-item{
+            p{
+                font-size:2.3rem !important;
+                margin-top: 25px !important;
+                margin-left:30px;
+            }
+            a{
+
+                margin-left:30px;
+            }
+        }
+    }
+}
+@media(max-width:992px){
+    .our-services-section{
+        .our-services-item{
+            p{
+                font-size:3.2rem;
+                margin-top: 60px;
+                margin-left:80px;
+            }
+            a{
+
+                margin-left:80px;
+            }
+        }
+    }
+}
+
 .professionals{
     h3{
         margin-top:111px;
@@ -91,12 +130,25 @@ $beauty-bg:#F5F5F5;
         }
 
     }
-    
-}
 
+}
+.container{
+    .professionals{
+        .professionals-section{
+            box-sizing: border-box;
+
+         
+        }
+    }
+
+}
 .professionals-section{
 
-    
+
+    border: 2px solid $light-pink;
+  
+
+
     img{
 
         padding:54px;
@@ -104,7 +156,7 @@ $beauty-bg:#F5F5F5;
 
 
     .profesionals-paragraph{
-        padding:85px 102px 50px;
+        margin-top:30px;
         color: $gray-900;
         font-family: $lato;
         font-size: 1.6rem;
@@ -122,6 +174,7 @@ footer{
         .fa-facebook-f,.fa-instagram, .fa-twitter{
             color:$light-pink;
             margin-left:33px;
+            margin-bottom: 20px;
         }
     }
     .title-link{

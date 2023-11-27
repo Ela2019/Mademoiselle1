@@ -1,0 +1,131 @@
+.contact-map{
+    margin-top:10px;
+    margin-left:700px;
+    position:absolute;
+}
+.contact-section{
+    position:relative;
+    margin-top:102px;
+    .form-control{
+        background: rgba(#253D61, 0.02);
+        border:none;
+        height:50px !important;
+        line-height:50px;
+        padding:0;
+        padding:0 10px;
+        margin-bottom:29px;
+    }
+
+    textarea.form-control{
+        height:149px!important;
+        resize:none;
+    }
+
+    .contact-title{
+        color:$gray-900;
+        font-family: $bodoni;
+        font-size: 3rem;
+        font-weight:$font-weight-light;
+        letter-spacing: 5px;
+        line-height: 4.5rem;
+    }
+
+    .contact-form{
+        color:$dark;
+        font-size: 1.6rem;
+        letter-spacing: -0.23px;
+        line-height: 2.5rem;
+        margin-top:19px;
+        font-family: $lato;
+        font-weight: $font-weight-light;
+
+
+    }
+    .submit-button{
+        font-size:1.7rem;
+        padding:15px 30px;
+        color:$dark;
+        letter-spacing: 0.5px;
+        line-height: 17px;
+        margin-bottom:110px;
+
+    }
+}
+.contact-info{
+    height: 255px;
+
+    background-color: $light-pink;
+    .contact-content{
+        margin-left:543px;
+
+    }
+
+}
+@media(min-width:576px){
+    .contact-map{
+        margin-left:0;
+        margin-top:580px;
+    }
+    .contact-info{
+        margin-top:380px;
+        .contact-content{
+
+            margin-left:203px;
+            .contact-phone{
+                margin-left: 30px;
+            }
+
+        }
+    }
+}
+@media(min-width:768px){
+    .contact-map{
+        margin-left:0;
+        margin-top:580px;
+    }
+    .contact-info{
+        margin-top:380px;
+        .contact-content{
+
+            margin-left:203px;
+            .contact-phone{
+                margin-left: 30px;
+            }
+
+        }
+    }
+}
+@media(min-width:992px){
+    .contact-map{
+        margin-left:500px;
+        margin-top:0px;
+    }
+    .contact-info{
+        margin-top:0px;
+        .contact-content{
+
+            margin-left:403px;
+            .contact-phone{
+                margin-left: 30px;
+            }
+
+        }
+    }
+}
+@media(min-width:1200px){
+    .contact-map{
+        margin-left:700px;
+        margin-top:0px;
+    }
+     .contact-info{
+        margin-top:0px;
+        .contact-content{
+
+            margin-left:553px;
+            .contact-phone{
+                margin-left: 30px;
+            }
+           
+        }
+    }
+}
